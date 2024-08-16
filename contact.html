@@ -119,6 +119,7 @@
 		                                        <!--Dropdown Menu End-->
 		                                    </li>
 		                                    <li class="active"><a href="contact.html">CONTACT</a></li>
+											<li><p class="watch"><span id="currentTime"></span></p></li>
 		                                </ul>
 		                            </nav>
 		                        </div>
@@ -164,7 +165,7 @@
                             <ul>
                                 <li>
                                     <h5>Address</h5>
-                                    <p>256, Centerl Town, Main Street Hilton Tower, New Yourk</p>
+                                    <p>Agip Hs, Nairobi</p>
                                 </li>
                                 <li>
                                     <h5>Phone</h5>
@@ -174,8 +175,8 @@
                                 </li>
                                 <li>
                                     <h5>Web</h5>
-                                    <p><a href="#">info@yourweb.com</a>
-                                        <a href="#">www.yourweb.com</a>
+                                    <p><a href="#">info@pmbunde.co.ke</a>
+                                        <a href="#">www.pmbunde.co.ke</a>
                                     </p>
                                 </li>
                             </ul>
@@ -279,8 +280,8 @@
                                 <!--Single Footer Widget Start-->
 		                        <div class="single-footer-widget mb-30">
                                     <a class="footer-logo" href="index.html"><img src="img/logo/logo-footer.png" alt=""></a>
-		                            <p>Lawyer boluptatum atque corrupe uas molestias cepturi sint  eca itate non nt in culpa modi tempora incidunt</p>
-		                            <h4 class="newslatter-title">Newsletter</h4>
+		                            <p>We believe that the law is the key to securing justice and fairness for everyone. We are dedicated to providing you with legal representation that is rooted in integrity and respect, ensuring your rights are protected and your voice is heard.</p>
+		                            <!--<h4 class="newslatter-title">Newsletter</h4>
 		                            <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" target="_blank" novalidate>
                                        <div id="mc_embed_signup_scroll">
                                           <div id="mc-form" class="mc-form subscribe-form" >
@@ -288,7 +289,7 @@
                                             <button id="mc-submit"><i class="fa fa-paper-plane-o"></i></button>
                                           </div>
                                        </div>
-                                   </form>
+                                   </form>-->
 		                        </div>
 		                        <!--Single Footer Widget End-->
 		                    </div>
@@ -300,8 +301,8 @@
 		                                <li><a href="about.html">About us</a></li>
 		                                <li><a href="service.html">Practice Area</a></li>
 		                                <li><a href="appointment.html">Appointment</a></li>
-		                                <li><a href="#">Terms & Conditions</a></li>
-		                                <li><a href="#">FAQ</a></li>
+		                                <li><a href="t&c.html">Terms & Conditions</a></li>
+		                                <li><a href="faq.html">FAQ</a></li>
 		                            </ul>
 		                        </div>
 		                    </div>
@@ -309,7 +310,7 @@
 		                    <!--Single Footer Widget Start-->
 		                    <div class="col-md-6 col-lg-3">
 		                        <div class="single-footer-widget mb-30">
-		                            <h3 class="footer-title">Latest Tweets</h3>
+		                            <h3 class="footer-title">Latest News</h3>
 		                            <ul class="footer-tweet">
 		                                <li>
 		                                    <p><a href="#">@James</a>, luptatum deleniti atque pti  molestias cepturi sint simple </p>
@@ -327,14 +328,14 @@
 		                    <div class="col-md-6 col-lg-3">
 		                        <div class="single-footer-widget mb-30">
 		                            <h3 class="footer-title">Contact Info</h3>
-		                            <p>129 Street Avenue, Alex Complex Central Street, New York</p>
+		                            <p>Suite 245, 2nd Floor Wing B Agip Hs, Haile Selassie Avenue</p>
 		                            <p class="contact-info">
-		                                <a href="#">+12546 658 987</a>
-		                                <a href="#">+12548 789 987</a>
+		                                <a href="tel:+254722753105">+254 722 753105</a>
+		                                <a href="tel:+254114353317">+254 114 353317</a>
 		                            </p>
 		                            <p class="contact-info">
-		                                <a href="#">info@yoursite.com</a>
-		                                <a href="#">www.yoursite.com</a>
+		                                <a href="mailto:info@pmbunde.co.ke">info@pmbunde.co.ke</a>
+		                                <a href="index.html">www.pmbunde.co.ke</a>
 		                            </p>
 		                        </div>
 		                    </div>
@@ -346,7 +347,7 @@
 		        <!--Footer Bottom Area Start-->
 		        <div class="footer-bottom-area pt-20 pb-20">
 		            <div class="container text-center">
-		               <p><span>&copy;</span> Copyright, 2018 All right reserved by <a href="#">Adalot</a></p>
+						<p>&copy; <span id="currentYear"></span> PM Bunde & Co. Advocates. All rights reserved. | Developed and Maintained by <a href="https://www.arkraft.co.ke" target="_blank">Arkraft</a></p>
 		            </div>
 		        </div>
 		        <!--Footer Bottom Area End-->
@@ -391,5 +392,22 @@
 	<script src="js/plugins.js"></script>
 	<!--Main Js-->
 	<script src="js/main.js"></script>
+	<!--Footer Year Automatic update-->
+	<script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+	<!--Header watch-->
+	<script>
+        function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('currentTime').textContent = timeString;
+        }
+
+        // Update the time immediately and then every second
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
 </body>
 </html>

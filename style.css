@@ -695,7 +695,7 @@ textarea:focus {
 /*colored background*/
  .white-bg { background: #fff !important; }
  .gray-bg { background: #f5f6f7 !important; }
- .black-bg { background: #303030 !important; }
+ .black-bg { background: #162d50 !important; }
  .default-bg { background: #b99044 !important; }
  .transparent-bg { background: transparent !important; }
 
@@ -744,7 +744,7 @@ Common Style CSS
 }
 .header-top-wrap {
 	padding: 15px 75px;
-	background-color: #303030;
+	background-color: #162d50;
 	margin-bottom: -15px;
 }
 .wrapper.box-layout {
@@ -1433,7 +1433,7 @@ Common Style CSS
 	color: #606060;
 }
 .service-sidebar {
-	background-color: #303030;
+	background-color: #162d50;
 	padding: 55px;
 }
 .service-sidebar > h3 {
@@ -1634,7 +1634,7 @@ Common Style CSS
 ------------------------------------*/
 .request-quate-area {
 	padding: 60px 50px;
-    background-color: #303030;
+    background-color: #162d50;
 }
 .request-quate-title > img {
 	margin-bottom: 25px;
@@ -2791,7 +2791,7 @@ h4.small-title {
 	padding-right: 50px;
 }
 .contact-information {
-	background-color: #303030;
+	background-color: #162d50;
 	padding: 100px 65px;
 }
 .contact-information > ul > li {
