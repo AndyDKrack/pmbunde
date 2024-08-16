@@ -241,6 +241,20 @@ blockquote::before {
 	left: 12%;
 	top: 27%;
 }
+
+/************************
+       Watch
+************************/
+.watch {
+	text-align: right;
+    padding: 2px 8px;
+    font-size: 18px;
+	color: whitesmoke;
+	font-weight: bold;
+    background-color: #b99044;
+}
+
+
 /*************************
     Animations
 ***********************/
