@@ -771,7 +771,7 @@ Common Style CSS
     transition: background 0s ease-in-out 0s, margin-top 0s ease-in-out 0s, opacity 0s ease-in-out 0s;
 }
 .header-sticky.is-sticky {
-	background: rgba(255,255,255,.85);
+	background: #b99044;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -820,6 +820,7 @@ Common Style CSS
 ------------------------------------*/
 .header-bottom-area {
 	padding-top: 15px;
+	background-color: #b99044;
 }
 .header-logo > a {
 	display: block;
@@ -838,7 +839,7 @@ Common Style CSS
 	font-size: 16px;
 	font-weight: 500;
 	padding: 40px 17px;
-	color: #373537;
+	color: #161616;
 	line-height: 30px;
 }
 .main-menu > li > a:last-child{
@@ -846,10 +847,10 @@ Common Style CSS
 }
 .main-menu > li.active > a,
 .main-menu > li:hover > a {
-	color: #b99044;
+	color: #ffffff;
 }
 .main-menu > li > ul {
-	background: #fff none repeat scroll 0 0;
+	background: #b99044 none repeat scroll 0 0;
 	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 	display: block;
 	left: 0px;
@@ -879,7 +880,7 @@ Common Style CSS
 	position: relative;
 }
 .main-menu > li > ul > li > a {
-	color: #373537;
+	color: #fffcff;
 	display: block;
 	font-weight: 400;
 	letter-spacing: 0.8px;
@@ -905,7 +906,7 @@ Common Style CSS
 }
 .main-menu > li > ul > li:hover > a {
 	padding-left: 15px;
-    color: #b99044;
+    color: #161616;
 }
 /*Mobile Menu CSS*/
 .mobile-menu .mean-nav > ul {
@@ -987,11 +988,11 @@ Common Style CSS
      transform: rotate(-45deg);
 }
  .mobile-menu .mean-bar .mean-nav {
-     background-color: #ffffff;
+     background-color: #b99044;
 }
  .mobile-menu .mean-bar .mean-nav > ul {
      margin-bottom: 30px;
-     border: 1px solid #eeeeee;
+     border: 1px solid #b99044;
      border-top: 0px solid transparent;
      overflow-x: hidden;
 }
@@ -1022,7 +1023,7 @@ Common Style CSS
 	text-transform: uppercase;
 	line-height: 44px;
 	position: relative;
-	border-top: 1px solid #eeeeee;
+	border-top: 1px solid #b99044;
 	padding: 0 40px 0 20px;
 	width: 100%;
 }
@@ -1031,7 +1032,7 @@ Common Style CSS
      padding-left: 25px;
 }
 .mobile-menu .mean-bar .mean-nav > ul li a.mean-expand {
-	border: 1px solid #eeeeee;
+	border: 1px solid #b99044;
 	position: absolute;
 	right: -1px;
 	top: 0;
@@ -1081,19 +1082,19 @@ Common Style CSS
      background-color: rgba(0, 0, 0, 0.04);
 }
  .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul li a, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li ul li ul li a {
-     border-top: 1px solid #dddddd;
+     border-top: 1px solid #b99044;
 }
  .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li ul li a.mean-expand {
-     border: 1px solid #dddddd;
+     border: 1px solid #b99044;
 }
  .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu ul, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul ul, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu ul, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul ul, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu ul, .mobile-menu .mean-bar .mean-nav > ul li ul li ul .sub-menu, .mobile-menu .mean-bar .mean-nav > ul li ul li ul ul {
      background-color: rgba(0, 0, 0, 0.05);
 }
  .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu ul li a, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul ul li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu ul li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul ul li a, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu ul li a, .mobile-menu .mean-bar .mean-nav > ul li ul li ul .sub-menu li a, .mobile-menu .mean-bar .mean-nav > ul li ul li ul ul li a {
-     border-top: 1px solid #eeeeee;
+     border-top: 1px solid #b99044;
 }
  .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li .sub-menu ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .sub-menu li ul ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li .sub-menu ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li .mega-menu li ul ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li .sub-menu ul li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li ul .sub-menu li a.mean-expand, .mobile-menu .mean-bar .mean-nav > ul li ul li ul ul li a.mean-expand {
-     border: 1px solid #eeeeee;
+     border: 1px solid #b99044;
 }
 /*Mobile Menu css end*/
 /*----------------------------------
@@ -1210,7 +1211,7 @@ Common Style CSS
 }
 .about-content {
 	margin-left: -60px;
-    padding-right: 120px;
+    padding-right: 40px;
 }
 .about-content > span {
 	font-size: 16px;
@@ -1249,7 +1250,7 @@ Common Style CSS
        6. Timeline Area CSS
 ------------------------------------*/
 .timeline-area {
-	padding: 375px 0 80px;
+	padding: 150px 0 80px;
 }
 .timeline-frame {
 	background-image: url(img/time-line-frame/frame1.png);
@@ -1545,6 +1546,10 @@ Common Style CSS
 /*----------------------------------
        9. Team Area CSS
 ------------------------------------*/
+.team-area {
+	padding: 10px;
+}
+
 .team-img {
 	border: 20px solid #303030;
 	flex: 0 0 245px;
