@@ -1170,6 +1170,9 @@ Common Style CSS
 	color: #606060;
 	font-weight: 400;
 }
+.values-list > li {
+	font-size: 16px;
+}
 /*----------------------------------
        5. About Area CSS
 ------------------------------------*/
@@ -1601,7 +1604,7 @@ Common Style CSS
        10. Our Working Area CSS
 ------------------------------------*/
 .working-wrap {
-	background-color: #fff;
+	background-color: #b99044;
 	padding: 40px 70px;
 	border-radius: 100px;
 	margin-bottom: -65px;
@@ -1633,6 +1636,10 @@ Common Style CSS
 	font-weight: 700;
 	line-height: 30px;
     margin: 0;
+}
+
+.process {
+	padding-top: 10px;
 }
 /*----------------------------------
     11. Testimonial And Quote Area CSS
@@ -2265,6 +2272,10 @@ h4.small-title {
 /*----------------------------------
     13. Brand Area CSS
 ------------------------------------*/
+.brand-area {
+	padding-top: 10px;
+}
+
 .single-brand {
 	text-align: center;
 }
