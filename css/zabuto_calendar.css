@@ -3,11 +3,11 @@
  */
 
 .zabuto_calender tr.calendar-month-header {
-    background:  #303030;
+    background:  #162d50;
 }
 .zabuto_calendar tr.calendar-month-header {
-    background: #303030;
-    color: #ffffff;
+    background: #162d50;
+    color: #b99044;
 }
 .zabuto_calendar tr.calendar-month-header td {
     text-align:  center;
@@ -37,7 +37,7 @@ div#zabuto_calendar_1tdz {
     text-align: center;
 }
 .zabuto_calendar .calendar-dow-header th {
-	color: #b99044;
+	color: #162d50;
 	font-size: 10px;
 	font-weight: 600;
 	padding: 28px 0;
@@ -74,7 +74,7 @@ div#zabuto_calendar_i3l_nav-prev span {
     content:  "";
     height: 6px;
     width:  6px;
-    background: #b99044;
+    background: #162d50;
     border-radius: 100%;
     right: 10px;
     top: 5px;
