@@ -2514,10 +2514,10 @@ h4.small-title {
 }
 .single-input > input,
 .single-input > textarea{
-	font-size: 14px;
-	color: #636363;
+	font-size: 20px;
+	color: #151414;
 	line-height: 46px;
-	border-bottom: 1px solid #efefef;
+	border-bottom: 1px solid #726e6e;
 }
 .single-input > input:focus,
 .single-input > textarea:focus{
@@ -2566,7 +2566,7 @@ h4.small-title {
 }
 .calltoaction > p {
 	font-size: 16px;
-	color: #606060;
+	color: #141414;
 	line-height: 25px;
 	max-width: 630px;
 	margin: auto;
